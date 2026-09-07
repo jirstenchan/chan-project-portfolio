@@ -5,6 +5,13 @@
   --foreground: #e6e6e6;
   --color-accent: #e45684;
   --divbg: #acacac1a;
+
+  --fullpage_bg: #efece6;
+  --text-color: #2b1e1a;
+  --orange: #c86b45;
+  --greenish-grey: #d4ddd8;
+  --dirty-white: #f7f5f0;
+  --brownish-grey: #bcb5aa;
 }
 
 @theme inline {
