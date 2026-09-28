@@ -2,14 +2,19 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex justify-center bg-(--fullpage_bg) text-(--text-color)">
+    <div className="bg-(--fullpage_bg) text-(--text-color)">
+      <nav className="absolute flex items-center w-full justify-around">
+        <h1>MJ Enterprise</h1>
+        <h1>MJ Enterprise</h1>
+        <h1>MJ Enterprise</h1>
+      </nav>
       <div className="flex flex-col items-center justify-center min-h-screen py-2 -translate-y-10">
         <div>
           <h1 className="text-6xl font-bold">
             I am <span className="text-(--orange)">Marie Jirsten Chan</span>
           </h1>
         </div>
-        <h2 className="text-4xl font-bold margin mb-[3vh]">
+        <h2 className="text-4xl font-bold margin mb-[4vh]">
           Want a team player? I push last.
         </h2>
         <p className="flex gap-18 text-lg">
